@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -12,7 +19,9 @@
 
         <nav>
             <div class="container">
+                <div class="logo">
                 <img src="images/logo.png" alt="Logo">
+            </div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
@@ -50,7 +59,7 @@
                 <img src="images/about-us.jpg" alt="About">
                </div>
                <div>
-                    <h1>About Us</h1>
+                    <h2>About Us</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores 
                         ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
                     </p>
@@ -60,7 +69,7 @@
 
         <section class="section-services">
             <div class="container">
-                <h1>Our Services</h1>
+                <h2>Our Services</h2>
                     <div>
                         <img src="images/digital.jpg" alt="Digital Transformation">
                         <h3> Digital Transformation </h3>
@@ -112,7 +121,7 @@
 
         <section class="section-vision">
             <div class="container">
-                <h1>Our Vision</h1>
+                <h2>Our Vision</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, 
                     accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.
                 </p>
@@ -122,12 +131,12 @@
 
         <section class="section-team">
             <div class="container">
-                <h1>Our Team</h1>
+                <h2>Our Team</h2>
                 <div>
                     <img src="images/john.jpg" alt="John">
                 </div>
                 <div>
-                    <h2>John Doe CEO and Co-owner</h2>
+                    <h3>John Doe CEO and Co-owner</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique.
                          Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora.
                     </p>
@@ -146,7 +155,7 @@
 
         <section class="section-contact">
             <div class="container">
-                <h1>Contact Us</h1>
+                <h2>Contact Us</h2>
                 <form>
                     <label for="fname">Full Name:</label><br>
                     <input type="text" id="fname" name="fname" value=""><br>
@@ -156,6 +165,24 @@
                     <input type="text" id="message" name="message" value=""><br><br>
                     <input type="submit" value="Send">
                   </form> 
+
+                  <h3>Hours of operation</h3>
+
+                  <table>
+                    <tr>
+                      <th>Days</th>
+                      <th>Hours</th>
+                    </tr>
+                    <tr>
+                      <td>Monday - Friday</td>
+                      <td>9AM - 6PM</td>
+                    </tr>
+                    <tr>
+                      <td>Saturday - Sunday</td>
+                      <td>Closed</td>
+                    </tr>
+                  </table>
+                  
 
                 <!-- a heading and three div's with a form, a map embed, and a table for the hours of operation -->
             </div> <!-- end container -->
